@@ -25,7 +25,7 @@ The goal of this project is to:
 ### Frontend
 
 * **React (Vite)** – Component-based UI and fast development environment
-* **JavaScript (ES6)** – Application logic
+* **JavaScript** – Application logic
 * **Custom CSS** – Styling and responsive layout
 * **Fetch API** – Communication with backend services
 
