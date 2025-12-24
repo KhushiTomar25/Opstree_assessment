@@ -57,16 +57,28 @@ function App() {
       </div>
 
       <label className="primary-btn">
-        Upload CSV
-        <input
-          type="file"
-          hidden
-          onChange={(e) => {
-            setFile(e.target.files[0]);
-            setTimeout(uploadCSV, 100);
-          }}
-        />
-      </label>
+  Upload CSV
+  <input
+    type="file"
+    hidden
+    onChange={async (e) => {
+      const selectedFile = e.target.files[0];
+      if (!selectedFile) return;
+
+      const formData = new FormData();
+      formData.append("file", selectedFile);
+
+      await fetch("http://localhost:5000/upload", {
+        method: "POST",
+        body: formData,
+      });
+
+      alert("CSV uploaded successfully");
+      fetchQuestions();
+    }}
+  />
+</label>
+
     </header>
 
     {/* MAIN CONTENT */}
