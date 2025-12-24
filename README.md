@@ -167,3 +167,5 @@ In a real‑world scenario, this layer can be easily replaced with a database su
 ## 👤 Author
 
 **Khushi Tomar**
+<img width="1794" height="963" alt="image" src="https://github.com/user-attachments/assets/5c836d84-fd20-49f4-b776-403559849d9c" />
+
