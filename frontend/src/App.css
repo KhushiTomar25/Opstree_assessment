@@ -1,0 +1,152 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: #f6f9fc;
+  color: #111;
+}
+
+/* Page wrapper */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f6f9fc;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 20px;
+  margin-left: 100%;
+
+}
+
+.header-left {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+}
+
+.header h1 {
+  margin-top: 10%;
+  font-size: 22px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+/* Upload button */
+.primary-btn {
+  background: #16a34a;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Main content */
+.main {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 20px 40px;
+  margin-left: 100%;
+
+}
+
+/* Search bar */
+.search-bar {
+  margin-bottom: 16px;
+}
+
+.search-bar input {
+  width: 95%;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+/* Hint box */
+.hint {
+  background: #ecfdf5;
+  color: #065f46;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.filters input {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* Questions section */
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Question card */
+.question-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+}
+
+.question-card h3 {
+  margin: 0 0 10px;
+  font-size: 17px;
+}
+
+/* Tags */
+.meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #555;
+}
+
+.meta span {
+  background: #f1f5f9;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+/* Empty state */
+.empty {
+  color: #777;
+  font-style: italic;
+  text-align: center;
+}
+
